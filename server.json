@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/rwanda-land-parcels",
+  "title": "Rwanda Land Parcels (NLA LAIS · UPI)",
+  "description": "Rwandan registered land parcels from NLA LAIS by UPI, district, sector and cell, or coordinates.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/rwanda-land-parcels-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/rwanda",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/rwanda"
+    }
+  ]
+}
